@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0HQ-Ae-CP5">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--搜索-->
+        <scene sceneID="U7h-Uu-q8q">
+            <objects>
+                <viewController id="VHZ-3N-ilA" customClass="SearchViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="H2G-aB-coL"/>
+                        <viewControllerLayoutGuide type="bottom" id="zta-2S-Qzh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="n4y-Se-hJC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hni-jl-Xef">
+                                <rect key="frame" x="11" y="72" width="60" height="30"/>
+                                <state key="normal" title="搜索详情"/>
+                                <connections>
+                                    <segue destination="AHR-4b-CPZ" kind="push" id="YQQ-Hm-75c"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="搜索" id="mfK-u9-ado"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xdT-Pc-mTI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1187" y="-208"/>
+        </scene>
+        <!--搜索详情-->
+        <scene sceneID="35I-zZ-Yds">
+            <objects>
+                <viewController id="AHR-4b-CPZ" customClass="SearchDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L0v-SP-j8U"/>
+                        <viewControllerLayoutGuide type="bottom" id="VZJ-yr-Esa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="U9V-lz-Ggy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="搜索详情" id="h3Q-hQ-M5r"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hkX-Du-gCm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1584" y="-208"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ihW-lH-Vt7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0HQ-Ae-CP5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="b0W-b1-N06">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="VHZ-3N-ilA" kind="relationship" relationship="rootViewController" id="2KX-la-stP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S2d-fC-3v1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="788" y="-208"/>
+        </scene>
+    </scenes>
+</document>
