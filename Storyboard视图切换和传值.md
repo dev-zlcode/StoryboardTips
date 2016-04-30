@@ -131,6 +131,8 @@ self视图控制器是用Code（Xib）创建的
 }
 ```
 
+[完整工程代码](https://github.com/YiQieSuiYuan/StoryboardTips/tree/master/StoryboardViewcontrollerValue)
+
 ### 六 参考
 
 [AppDelegate动态加载StoryBoard](http://blog.csdn.net/huanghuanghbc/article/details/8530997)

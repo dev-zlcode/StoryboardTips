@@ -131,9 +131,12 @@ self视图控制器是用Code（Xib）创建的
 }
 ```
 
+[完整工程代码](https://github.com/YiQieSuiYuan/StoryboardTips/tree/master/StoryboardViewcontrollerValue)
+
 ### 六 参考
 
 [AppDelegate动态加载StoryBoard](http://blog.csdn.net/huanghuanghbc/article/details/8530997)
+
 
 # 用多个StoryBoard构建工程
 
@@ -204,9 +207,8 @@ self视图控制器是用Code（Xib）创建的
 最终的效果图
 ![图例7](http://blog.zlcode.com/wp-content/uploads/2016/05/more-storyboard-build-project-7.png)
 
-[完整项目代码]()
+[完整项目代码](https://github.com/YiQieSuiYuan/StoryboardTips/tree/master/MoreStoryboardBuildProject)
 
 ### 五 参考
 
 [iOS storyboard 添加Entry point](http://www.07net01.com/2015/07/888152.html)
-

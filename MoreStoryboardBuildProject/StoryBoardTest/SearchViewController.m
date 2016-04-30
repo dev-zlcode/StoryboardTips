@@ -14,9 +14,15 @@
 
 @implementation SearchViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+   
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    segue.destinationViewController.hidesBottomBarWhenPushed = YES;
 }
 
 @end
