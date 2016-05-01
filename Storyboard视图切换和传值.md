@@ -131,7 +131,8 @@ self视图控制器是用Code（Xib）创建的
 }
 ```
 
-[完整工程代码](https://github.com/YiQieSuiYuan/StoryboardTips/tree/master/StoryboardViewcontrollerValue)
+[完整工程代码下载](https://github.com/YiQieSuiYuan/StoryboardTips/tree/master/StoryboardViewcontrollerValue)
+[官方Storyboard例子下载](https://developer.apple.com/library/ios/samplecode/CustomTransitions/Introduction/Intro.html)
 
 ### 六 参考
 

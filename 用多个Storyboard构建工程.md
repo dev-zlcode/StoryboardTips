@@ -67,7 +67,8 @@
 最终的效果图
 ![图例7](http://blog.zlcode.com/wp-content/uploads/2016/05/more-storyboard-build-project-7.png)
 
-[完整项目代码](https://github.com/YiQieSuiYuan/StoryboardTips/tree/master/MoreStoryboardBuildProject)
+[完整项目代码下载](https://github.com/YiQieSuiYuan/StoryboardTips/tree/master/MoreStoryboardBuildProject)
+[官方Storyboard例子下载](https://developer.apple.com/library/ios/samplecode/CustomTransitions/Introduction/Intro.html)
 
 ### 五 参考
 

@@ -71,6 +71,6 @@
 ![图例1](http://blog.zlcode.com/wp-content/uploads/2016/05/storyboard-custom-transform-animation-1.png)
 
 [完整代码下载](https://github.com/YiQieSuiYuan/StoryboardTips/tree/master/StoryboardCustomTransformAnimation)
-
+[官方Storyboard例子下载](https://developer.apple.com/library/ios/samplecode/CustomTransitions/Introduction/Intro.html)
 
 
