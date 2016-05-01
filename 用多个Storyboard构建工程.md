@@ -1,6 +1,6 @@
 # 用多个StoryBoard构建工程
 
-### 一 重新创建Home、Search和About两个StoryBoard
+### 一 重新创建Home、Search和About三个StoryBoard
 
 ![图例1](http://blog.zlcode.com/wp-content/uploads/2016/05/more-storyboard-build-project-1.png)
 
@@ -31,7 +31,7 @@
     UINavigationController *aboutNav = [[UIStoryboard storyboardWithName:@"About" bundle:[NSBundle mainBundle]] instantiateInitialViewController];
     UITabBarItem *aboutItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemContacts tag:0];
     aboutNav.tabBarItem = aboutItem;
-    aboutNav.title = @"观月";
+    aboutNav.title = @"关于";
     
     // 将视图控制器添加至数组中
     NSArray *viewControllers = @[homeNav,searchNav,aboutNav];

@@ -141,7 +141,7 @@ self视图控制器是用Code（Xib）创建的
 
 # 用多个StoryBoard构建工程
 
-### 一 重新创建Home、Search和About两个StoryBoard
+### 一 重新创建Home、Search和About三个StoryBoard
 
 ![图例1](http://blog.zlcode.com/wp-content/uploads/2016/05/more-storyboard-build-project-1.png)
 
@@ -172,7 +172,7 @@ self视图控制器是用Code（Xib）创建的
     UINavigationController *aboutNav = [[UIStoryboard storyboardWithName:@"About" bundle:[NSBundle mainBundle]] instantiateInitialViewController];
     UITabBarItem *aboutItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemContacts tag:0];
     aboutNav.tabBarItem = aboutItem;
-    aboutNav.title = @"观月";
+    aboutNav.title = @"关于";
     
     // 将视图控制器添加至数组中
     NSArray *viewControllers = @[homeNav,searchNav,aboutNav];
@@ -214,7 +214,6 @@ self视图控制器是用Code（Xib）创建的
 ### 五 参考
 
 [iOS storyboard 添加Entry point](http://www.07net01.com/2015/07/888152.html)
-
 
 # Storyboard 自定义转场动画
 
