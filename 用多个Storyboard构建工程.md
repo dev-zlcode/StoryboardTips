@@ -8,7 +8,7 @@
 
 ![图例3](http://blog.zlcode.com/wp-content/uploads/2016/05/more-storyboard-build-project-3.png)
 
-### 二 创建TabBarViewController类继承于UITabBarController
+### 二 创建 TabBarViewController 类继承于UITabBarController
 
 ```
 - (void)viewDidLoad
